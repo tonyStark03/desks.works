@@ -48,8 +48,8 @@ export function UserNav() {
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          Log out
+        <DropdownMenuItem onClick={()=> router.push("/login")}>
+          Log in
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
